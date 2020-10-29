@@ -6,8 +6,8 @@ class Notas {
     private $id_alumno;
     private $nota;
 
-    function __construct() {
-
+    public function __construct() {
+    }
 
        /**
      * Get the value of id_notas
@@ -88,7 +88,7 @@ class Notas {
 
         return $this;
     }
-
+}
     
 
 ?>

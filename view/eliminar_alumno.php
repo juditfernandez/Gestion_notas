@@ -16,7 +16,7 @@ try {
     $sentencia->bindParam(1,$id);
     $sentencia->execute();*/
 
-    //header('Location: mostrar_alumnos.php');
+header('Location: mostrar_alumnos.php');
 } catch (Exception $ex) {
     /* Reconocer un error y no hacer los cambios */
     $pdo->rollback();
