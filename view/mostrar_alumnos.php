@@ -1,6 +1,14 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+  </head>
+</html>
+
+
 <?php
+require_once '../controller/sessionController.php';
 $id_alumno = -1;
-echo "<a href='crear_alumno.html?id_alumno=$id_alumno'> Crear </a><br>";
+echo "<button><a href='Crear_alumno.html?id_alumno=$id_alumno'> Crear </a></button><br>";
 ?>
 
 <html>

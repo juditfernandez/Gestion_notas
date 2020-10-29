@@ -44,11 +44,12 @@ class AlumnoDao{
                 echo " </br>";
             }
             $id_alumno=$alumno['id_alumno'];
+            echo "<div class='espacio'>";
             echo "<a href='modificar_alumno.php?id_alumno=$id_alumno'> Modificar </a> ";
             echo "<a href='eliminar_alumno.php?id_alumno=$id_alumno'> Eliminar </a>";
             echo "{$alumno['nom_alumno']} , ";
             echo "{$alumno['apellido_alum']} , ";
-            echo "{$alumno['apellido2_alum']}<br>";
+            echo "{$alumno['apellido2_alum']}<br></div>";
             $id_alumno=$alumno['id_alumno'];
         } 
     }
